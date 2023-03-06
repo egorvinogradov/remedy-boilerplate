@@ -7,7 +7,9 @@ export class App extends React.Component {
     return (
       <div className="App">
         <BrowserRouter>
-          <h1>Header</h1>
+          <h1>
+            <a target="_blank" href="https://github.com/egorvinogradov/remedy-boilerplate">https://github.com/egorvinogradov/remedy-boilerplate</a>
+          </h1>
           <ul>
             <li>
               <NavLink to="/">Home</NavLink>
